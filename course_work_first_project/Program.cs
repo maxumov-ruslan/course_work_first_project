@@ -30,9 +30,12 @@ namespace course_work_first_project
             {
                 case ConsoleKey.D1:
                     {
-                        Location location = new Location();
-                        location.GetLocation(map.Get_current_location());
-                        
+                        //Location location = new Location();
+                        //location.GetLocation(map.Get_current_location());
+
+                        Game switchLocation = new Game();
+                        switchLocation.GetLocation(map.Get_current_location());
+
                         Console.WriteLine("Нажмите enter для продолжения");
                         Console.ReadLine();
                         goto start;
