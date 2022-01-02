@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace course_work_first_project
 {
@@ -30,8 +27,7 @@ namespace course_work_first_project
             {
                 case ConsoleKey.D1:
                     {
-                        //Location location = new Location();
-                        //location.GetLocation(map.Get_current_location());
+                        
 
                         Game switchLocation = new Game();
                         switchLocation.GetLocation(map.Get_current_location());
@@ -52,7 +48,7 @@ namespace course_work_first_project
 
                 case ConsoleKey.D3:
                     {
-                        //map.Create_Map();
+                        
                         map.Start_Location();
 
                         ConsoleKeyInfo keyInfo = Console.ReadKey();
@@ -68,8 +64,7 @@ namespace course_work_first_project
                     {
                         Blacksmith_shop blacksmith_Shop = new Blacksmith_shop();
                         blacksmith_Shop.Menu();
-                        //Console.WriteLine("Нажмите enter для продолжения");
-                        //Console.ReadLine();
+                        
                         goto start;
                     }
                     

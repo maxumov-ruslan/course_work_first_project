@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace course_work_first_project
 {
     class Vertex
@@ -18,10 +13,7 @@ namespace course_work_first_project
             Name = name;
         }
 
-        //public override string ToString()
-        //{
-        //    return Number.ToString();
-        //}
+        
 
     }
 }

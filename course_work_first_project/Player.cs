@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
 
 namespace course_work_first_project
 {
@@ -23,10 +20,10 @@ namespace course_work_first_project
         {
             inventory = new Inventory();
 
-            inventory.AddItem(new Item("Хитин"  , 1 , 10));
-            inventory.AddItem(new Item("Шкура"  , 2 , 10));
-            inventory.AddItem(new Item("Клык"   , 3 , 10));
-            inventory.AddItem(new Item("Жало"   , 4 , 10));
+            inventory.AddItem(new Item("Хитин"  , 1 , 0));
+            inventory.AddItem(new Item("Шкура"  , 2 , 0));
+            inventory.AddItem(new Item("Клык"   , 3 , 0));
+            inventory.AddItem(new Item("Жало"   , 4 , 0));
         }
        
 

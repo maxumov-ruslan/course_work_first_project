@@ -83,6 +83,7 @@ namespace course_work_first_project
 
                 Console.WriteLine($"{v.Number} : {v.Name} ");
             }
+            
         }
         public static Vertex GetChosenVertex(Graph graph, Vertex vertex, int  key_for_choice)
         {
